@@ -1,0 +1,38 @@
+@font-face {
+	font-family: "campaignkit";
+	src: url("../fonts/campaignkit.eot?71qbun");
+	src: url("../fonts/campaignkit.eot?71qbun#iefix") format("embedded-opentype"), url("../fonts/campaignkit.ttf?71qbun") format("truetype"), url("../fonts/campaignkit.woff?71qbun") format("woff"), url("../fonts/campaignkit.svg?71qbun#campaignkit") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ck-icon-"],
+[class*=" ck-icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "campaignkit" !important;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+	text-transform: none;
+
+	speak: none;
+}
+
+.ck-icon-campaignkit:before {
+	content: "\e900";
+}
+
+#adminmenu #toplevel_page_baltic-admin div.wp-menu-image:before {
+	margin-top: 3px;
+	font-family: "campaignkit";
+	font-size: 14px;
+	content: "\e900";
+}
+
+.toplevel_page_baltic-admin #wpcontent {
+	padding-right: 0;
+}

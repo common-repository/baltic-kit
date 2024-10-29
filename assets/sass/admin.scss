@@ -1,0 +1,15 @@
+@import "variables";
+@import "mixins";
+
+@import "campaignkit";
+
+#adminmenu #toplevel_page_baltic-admin div.wp-menu-image:before {
+	content: "\e900";
+    font-family: "campaignkit";
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.toplevel_page_baltic-admin #wpcontent {
+	padding-left: 0;
+}

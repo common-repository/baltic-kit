@@ -1,0 +1,75 @@
+// Color
+$color__background-body: #eceff1;
+$color__background-screen: #ff5722;
+$color__background-hr: #ccc;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+$color__background-sticky: #673ab7;
+$color__background-submenu: #263238;
+
+$color__site: #fff;
+$color__site-header: #fff;
+$color__site-content: #fff;
+$color__site-footer: #fff;
+
+$color__campaign-kit: #4a8ff1;
+
+$color__text-screen: #21759b;
+$color__text-input: #909090;
+$color__text-input-focus: #606060;
+$color__link: #ff5722;
+$color__link-hover: lighten( $color__link, 15% );
+
+$color__text-main: #505050;
+$color__text-secondary: #909090;
+$color__text-label: #909090;
+
+$color__button: $color__link;
+$color__button-hover: $color__link-hover;
+
+$color__border-input: rgba( 0,0,0,.1 );
+$color__border-abbr: #666;
+
+$color__alpha-dark: rgba( 0,0,0,.1 );
+$color__alpha-dark05: rgba( 0,0,0,.05 );
+$color__alpha-light: rgba( 255,255,255,.1 );
+$color__white: #fff;
+
+$color__stars: #ffc107;
+
+// Border radius
+$site__border-radius: .25rem;
+
+$color__btn-primary: #1976d2;
+$color__btn-secondary: #607d8b;
+$color__btn-success: #4caf50;
+$color__btn-danger: #ff5722;
+$color__btn-warning: #ff9800;
+$color__btn-info: #00bcd4;
+
+// Columns
+$columns: (
+	1: 100%,
+	2: 50%,
+	3: 33.33%,
+	4: 25%,
+	5: 20%,
+	6: 16.66%,
+	7: 14.28%,
+	8: 12.5%,
+	9: 11.11%,
+	10: 10%
+);
+
+$gutter__width: 10px;
+// Break points
+$media__small: 576px;
+$media__medium: 768px;
+$media__large: 992px;
+$media__extra-large: 1200px;
+
+// WooCommerce
+$woocommerce__color-error: #e2401c;
+$woocommerce__color-success: #0f834d;
+$woocommerce__color-info: #3D9CD2;

@@ -1,0 +1,54 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+@mixin radius-shadow(){
+	border-radius: .25rem;
+	box-shadow: 0 8px 92px $color__alpha-dark;
+}
+
+@mixin radius-border(){
+	border: 1px solid $color__alpha-dark;
+	box-shadow: none;
+}
+
+// Column width
+@mixin column-width($numberColumns: 3) {
+	width: map-get( $columns, $numberColumns );
+}
+
+@mixin respond-to($media) {
+	@if $media == small {
+		@media (min-width: $media__small) { @content; }
+	}
+	@else if $media == medium {
+		@media (min-width: $media__medium) { @content; }
+	}
+	@else if $media == large {
+		@media (min-width: $media__large) { @content; }
+	}
+	@else if $media == extra-large {
+		@media (min-width: $media__extra-large) { @content; }
+	}
+}
